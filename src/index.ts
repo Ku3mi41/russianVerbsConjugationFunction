@@ -203,6 +203,7 @@ function type2a(verb: string, pronoun: PersonalPronoun): string {
  */
 export function conjugate(verb: string, pronoun: PersonalPronoun): string {
   const conjugationForm = getConjugationForm(verb);
+  verb = verb.toLowerCase();
 
   if (
     EXCEPTIONS[0].includes(verb) ||
