@@ -1,2 +1,4 @@
-# russianVerbsConjugationFunction
-Created with CodeSandbox
+# Функция для образования личных форм из несовершенных форм глаголов русского языка [[ДЕМО]](https://codesandbox.io/s/conjugation-func-ug0cf?file=/src/index.ts)
+
+Реализация функции основана на [этой](https://science-education.ru/ru/article/view?id=24337) статье и покрывает наиболее частовстречаемые глаголы.
+Остаются нереализованными случаи зависящие от ударения, с приращением гласных и -чь/-сть/-зть/-ти
